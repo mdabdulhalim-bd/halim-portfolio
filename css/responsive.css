@@ -1,0 +1,13 @@
+@media only screen and (max-width:768px){
+    .nav-bar{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menues ul{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        align-items: center;
+      }
+}

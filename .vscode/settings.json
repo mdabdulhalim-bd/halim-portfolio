@@ -1,0 +1,8 @@
+{
+    "highlight-matching-tag.highlightFromAttributes": false,
+    "highlight-matching-tag.highlightFromName": false,
+    "highlight-matching-tag.highlightSelfClosing": true,
+    "highlight-matching-tag.showPath": false,
+    "highlight-matching-tag.showRuler": false,
+    "highlight-matching-tag.styles": null
+}

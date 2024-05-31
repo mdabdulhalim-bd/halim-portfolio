@@ -1,0 +1,62 @@
+@import url("./responsive.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --white: #fff;
+  --deepYellow: hsla(26, 100%, 50%, 1);
+  --bgColor: #1e1e1e;
+}
+
+.container {
+  background-color: var(--bgColor);
+  height: 100%;
+  padding: 50px;
+  color: var(--white);
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menues ul{
+  list-style: none;
+  display: flex;
+}
+/* .menues ul li{
+  margin: 0 12px;
+} */
+.menues ul li a{
+  text-decoration: none;
+  color: var(--white);
+  padding: 12px 20px;
+}
+.active{
+  background-color: var(--deepYellow);
+}
+.logo{
+  font-size: 32px;
+  color: var(--deepYellow);
+  text-transform: uppercase;
+}
+
+
+/* Footer section  */
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #000000;
+  padding: 50px 0;
+}
+.footer-dev{
+  color:var(--deepYellow)
+}
