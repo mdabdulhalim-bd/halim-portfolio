@@ -10,4 +10,27 @@
         margin-top: 20px;
         align-items: center;
       }
+
+      /* My Experience  */
+      .my-experience{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .exp-details p {
+        font-size: 14px;
+      }
+      .designation-text h1{
+        font-size: 20px;
+      }
+      .awards-phone{
+        flex-direction: column;
+        align-items: center;
+      }
+      .project-description{
+        flex-direction: column;
+      }
+      
+
 }
+
