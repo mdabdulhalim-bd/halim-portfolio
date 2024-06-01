@@ -18,6 +18,15 @@
       .banner-image{
         margin-bottom: 20px;
       }
+      .about-me-desc{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .about{
+        align-items: center;
+      }
 
       /* My Experience  */
       .my-experience{

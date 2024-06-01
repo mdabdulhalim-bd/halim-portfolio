@@ -147,6 +147,22 @@ svg {
   margin-top: 10px;
 }
 
+.about-me-desc{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+.experience{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
 /* Footer section  */
 
 .footer-section {
