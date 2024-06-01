@@ -26,6 +26,7 @@ p {
 .container {
   background-color: var(--bgColor);
   height: 100%;
+  overflow-x: hidden;
 
   color: var(--white);
   width: 100%;
@@ -130,7 +131,7 @@ svg {
     background-color: #000000;
     transform: rotate(-10deg);
     transform-origin: -3% 103%;
-    width: 1430px;
+    min-width: 1420px;
 }
  
 

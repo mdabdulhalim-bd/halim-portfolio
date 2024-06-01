@@ -18,6 +18,9 @@
       .banner-image{
         margin-bottom: 20px;
       }
+      .service-items {
+        display: none;
+      }
       .about-me-desc{
         flex-direction: column;
         justify-content: center;
