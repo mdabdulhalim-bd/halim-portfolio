@@ -15,6 +15,7 @@
 }
 h1 {
   font-size: 45px;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -25,14 +26,15 @@ p {
 .container {
   background-color: var(--bgColor);
   height: 100%;
-  padding: 50px;
+
   color: var(--white);
+  width: 100%;
 }
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 100px;
 }
 .menues ul {
   list-style: none;
@@ -57,17 +59,25 @@ p {
 
 /* Banner Section =================  */
 .banner {
-  padding: 100px 0;
+  padding: 100px  100px;
   display: flex;
   justify-content: space-between;
 }
 .banner-image {
   height: 400px;
-  border: 2px solid var(--deepYellow);
-  width: fit-content;
-  block-size: fit-content;
-  border-radius: 300px;
+  width: 400px;
+  border: 3px solid var(--deepYellow);
+   border-radius: 50%;
   overflow: hidden;
+  margin-right: 5%;
+  display: flex;
+  align-items: start;
+  width: fit-content;
+  
+}
+.profile-img {
+  width: 400px;
+  height: 400px;
 }
 
 .banner-contents {
@@ -97,6 +107,7 @@ p {
   height: 82px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .hire-me {
   padding: 20px 70px;
@@ -106,10 +117,36 @@ p {
   background-color: var(--deepYellow);
   color: var(--white);
   margin-right: 10px;
+  cursor: pointer;
 }
+
 svg {
   width: 20px;
 }
+
+
+  
+  .service-items {
+    background-color: #000000;
+    transform: rotate(-10deg);
+    transform-origin: -3% 103%;
+    width: 1430px;
+}
+ 
+
+.service-items ul{
+  list-style-image: url('../images//star3.png');
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.service-items ul li{
+  margin-top: 10px;
+}
+
 /* Footer section  */
 
 .footer-section {
@@ -137,7 +174,7 @@ svg {
   display: flex;
   justify-content: space-between;
   gap: 70px;
-  padding: 100px 0;
+  padding: 100px 100px;
   background-image: linear-gradient(
     to left,
     rgba(255, 177, 71, 0.1),
@@ -151,8 +188,7 @@ svg {
   width: 40%;
   gap: 18px;
 }
-.exp-details span {
-  font-style: italic;
+.exp-details > span {
 }
 .exp-details h1 {
   font-size: 40px;
@@ -185,9 +221,12 @@ svg {
 }
 
 /* Awards Section ===========  */
+.awards{
+  padding: 100px 100px;
+}
 .awards-title {
   text-align: center;
-  margin: 100px 0 50px 0;
+  margin: 0 0 50px 0;
 }
 .awards-title p {
   color: gray;
@@ -200,7 +239,6 @@ svg {
   justify-content: space-between;
   background-color: #000000;
   padding: 30px;
-  border: 1px solid white;
   margin-bottom: 20px;
 }
 .mobile {
@@ -213,6 +251,9 @@ svg {
 }
 
 /* ========= My Portfolio ====  */
+.my-portfolio{
+  padding: 0 100px;
+}
 .portfolio-demo {
   margin-bottom: 100px;
 }
@@ -232,14 +273,11 @@ svg {
 .protfolio-content {
   padding-left: 20px;
 }
-span {
-  font-style: italic;
+
+/* contact Section Start from here  */
+.contact{
+  padding: 100px 100px;
 }
-
-/* .contact-form{
-  padding: 50px;
-} */
-
 .contact-form {
   background-color: hsla(26, 100%, 50%, 0.1);
   padding: 100px;

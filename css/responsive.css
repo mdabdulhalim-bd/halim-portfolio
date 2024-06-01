@@ -10,6 +10,14 @@
         margin-top: 20px;
         align-items: center;
       }
+      .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+  
+      }
+      .banner-image{
+        margin-bottom: 20px;
+      }
 
       /* My Experience  */
       .my-experience{
