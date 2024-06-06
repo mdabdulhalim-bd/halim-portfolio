@@ -1,56 +1,239 @@
-@media only screen and (max-width:768px){
-    .nav-bar{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .menues ul{
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 20px;
-        align-items: center;
-      }
-      .banner {
-        flex-direction: column-reverse;
-        align-items: center;
-  
-      }
-      .banner-image{
-        margin-bottom: 20px;
-      }
-      .service-items {
-        display: none;
-      }
-      .about-me-desc{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-      }
-      .about{
-        align-items: center;
-      }
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
 
-      /* My Experience  */
-      .my-experience{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      .exp-details p {
-        font-size: 14px;
-      }
-      .designation-text h1{
-        font-size: 20px;
-      }
-      .awards-phone{
-        flex-direction: column;
-        align-items: center;
-      }
-      .project-description{
-        flex-direction: column;
-      }
-      
+  .nav-bar {
+    flex-direction: column;
+  }
+  .menues{
+    width: 100% !important;
+  }
+  .menues ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   
+  }
 
+  /* Banner Section =================  */
+  .banner {
+    align-items: center;
+    padding: 20px 20px !important;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .banner-contents {
+    width: 100% !important;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .project-description {
+    flex-direction: column-reverse;
+  }
+  .service-items {
+    display: none;
+  }
+  .exp-designation {
+    width: 100% !important;
+  }
+  .about-me-desc {
+    flex-direction: column;
+    padding: 10px 10px !important;
+  }
+  .about {
+    width: 100% !important;
+  }
+  .experience {
+    margin-top: 30px;
+  }
+
+  /* Footer section  */
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #000000;
+    padding: 50px 0;
+  }
+  .footer-dev {
+    color: var(--deepYellow);
+  }
+  .footer-social-icon {
+    display: flex;
+    gap: 20px;
+    font-size: 33px;
+  }
+  .footer-social-icon a {
+    color: var(--white);
+  }
+
+  /* My Experience  */
+  .my-experience {
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+  }
+  .exp-details {
+    width: 98% !important;
+  }
+
+  .exp-details h1 {
+    font-size: 40px;
+  }
+  .exp-details p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  .exp-designation {
+    width: 50%;
+  }
+  .designation-text {
+    border-bottom: 1px solid var(--white);
+    padding: 30px 0;
+  }
+
+ 
+  .responsibility {
+    font-size: 16px;
+  }
+  .designation-text h1 {
+    font-size: 32px;
+  }
+
+  /* Awards Section ===========  */
+  .awards {
+    flex-direction: column;
+    width: 100% !important;
+    padding: 10px;
 }
+  .awards-title {
+    text-align: center;
+    margin: 0 0 50px 0;
+  }
+  .awards-title p {
+    color: gray;
+  }
+  .awards-title > h1 {
+    margin-bottom: 15px;
+  }
+  .awards-phone {
+   flex-direction: column;
+  }
+  .mobile {
+    width: 100%;
+  }
+  .mobile p {
+    color: gray;
+    padding: 20px 20;
+    line-height: 28px;
+  }
 
+  /* ========= My Portfolio ====  */
+  .my-portfolio {
+    padding: 0 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .portfolio-demo {
+    margin-bottom: 100px;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0;
+  }
+
+  .project-description {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .protfolio-content {
+    padding-left: 20px;
+  }
+
+  /* contact Section Start from here  */
+  .contact {
+    padding: 20px;
+  }
+  .contact-form {
+    padding: 10px;
+  }
+  .input-group {
+    display: flex;
+    gap: 20px;
+  }
+  .input-group div {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 14px 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background: hsla(26, 100%, 50%, 0);
+    text-transform: uppercase;
+  }
+  input[type="text"] {
+    color: var(--white);
+  }
+  textarea {
+    width: 100%;
+    resize: none;
+    margin-top: 20px;
+    background: hsla(26, 100%, 50%, 0);
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+  }
+  .form-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .fa-link {
+    font-size: 10px;
+    word-spacing: 10px;
+    color: var(--white);
+    margin: 3px;
+  }
+  .submit-btn {
+    padding: 14px 0;
+    background-color: var(--deepYellow);
+    color: var(--white);
+    font-size: 18px;
+    border: none;
+    width: 170px;
+  }
+}
